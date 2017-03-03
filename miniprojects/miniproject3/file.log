@@ -1,0 +1,260 @@
+Arguments received are ['/home/praz/workspace/cse591-practicals/miniprojects/miniproject3/ppaudyal_paudyal.py']
+['No command line arguments give, using default:_dataset/_dataset_30385']
+. Initializing the network
+.. Adding input layer input
+.. Adding dot_product layer dot_product_1
+.. Adding flatten layer 2
+.. Adding dot_product layer dot_product_2
+.. Adding classifier layer softmax
+.. Adding objective layer nll
+Network architecture: {'2': <yann.layers.flatten.flatten_layer object at 0x7f41c93bd310>, 'dot_product_1': <yann.layers.fully_connected.dot_product_layer object at 0x7f41c9389890>, 'softmax': <yann.layers.output.classifier_layer object at 0x7f41c9430650>, 'dot_product_2': <yann.layers.fully_connected.dot_product_layer object at 0x7f41c9389d90>, 'input': <yann.layers.input.input_layer object at 0x7f41c9420510>, 'nll': <yann.layers.output.objective_layer object at 0x7f41c92dc6d0>}
+{'momentum_type': 'false', 'momentum_params': (0.9, 0.95, 30), 'regularization': (0.0001, 0.0002), 'id': 'polyak-rms', 'optimizer_type': 'adagrad'}
+.. Setting up the optimizer
+.. Cooking the network
+.. Setting up the visualizer
+.. Setting up the resultor
+. Training
+. 
+
+.. Epoch: 0 Era: 0
+.. Cost                : 1.99743791348
+.. Validation accuracy : 60.01
+.. Training accuracy : 57.84
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 1 Era: 0
+.. Cost                : 1.29617172221
+. 
+
+.. Epoch: 2 Era: 0
+.. Cost                : 1.02112723106
+.. Validation accuracy : 73.99
+.. Training accuracy : 71.5
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 3 Era: 0
+.. Cost                : 0.896592207134
+. 
+
+.. Epoch: 4 Era: 0
+.. Cost                : 0.824952105337
+.. Validation accuracy : 77.58
+.. Training accuracy : 74.97
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 5 Era: 0
+.. Cost                : 0.777709198844
+. 
+
+.. Epoch: 6 Era: 0
+.. Cost                : 0.743093015603
+.. Validation accuracy : 79.63
+.. Training accuracy : 77.182
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 7 Era: 0
+.. Cost                : 0.716041669773
+. 
+
+.. Epoch: 8 Era: 0
+.. Cost                : 0.693882424411
+.. Validation accuracy : 81.23
+.. Training accuracy : 78.75
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 9 Era: 0
+.. Cost                : 0.675038899241
+. 
+
+.. Epoch: 10 Era: 0
+.. Cost                : 0.658545433673
+.. Validation accuracy : 82.07
+.. Training accuracy : 79.944
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 11 Era: 0
+.. Cost                : 0.643779881406
+. 
+
+.. Epoch: 12 Era: 0
+.. Cost                : 0.630322403603
+.. Validation accuracy : 82.95
+.. Training accuracy : 80.98
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 13 Era: 0
+.. Cost                : 0.617888936819
+. 
+
+.. Epoch: 14 Era: 0
+.. Cost                : 0.606277830862
+.. Validation accuracy : 83.7
+.. Training accuracy : 81.892
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 15 Era: 0
+.. Cost                : 0.595290090895
+. 
+
+.. Epoch: 16 Era: 0
+.. Cost                : 0.584672255819
+.. Validation accuracy : 84.37
+.. Training accuracy : 82.686
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 17 Era: 0
+.. Cost                : 0.574344259877
+. 
+
+.. Epoch: 18 Era: 0
+.. Cost                : 0.564427424314
+.. Validation accuracy : 85.02
+.. Training accuracy : 83.394
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 19 Era: 0
+.. Cost                : 0.554920519758
+.. Learning rate was already lower than specified. Not changing it.
+. 
+
+.. Epoch: 20 Era: 1
+.. Cost                : 0.555098678557
+.. Validation accuracy : 85.27
+.. Training accuracy : 83.73
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 21 Era: 1
+.. Cost                : 0.546360243451
+. 
+
+.. Epoch: 22 Era: 1
+.. Cost                : 0.537966302624
+.. Validation accuracy : 85.88
+.. Training accuracy : 84.33
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 23 Era: 1
+.. Cost                : 0.52991553575
+. 
+
+.. Epoch: 24 Era: 1
+.. Cost                : 0.522201042338
+.. Validation accuracy : 86.35
+.. Training accuracy : 84.944
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 25 Era: 1
+.. Cost                : 0.514822879393
+. 
+
+.. Epoch: 26 Era: 1
+.. Cost                : 0.507775690567
+.. Validation accuracy : 86.71
+.. Training accuracy : 85.362
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 27 Era: 1
+.. Cost                : 0.501054576615
+. 
+
+.. Epoch: 28 Era: 1
+.. Cost                : 0.494650958145
+.. Validation accuracy : 87.15
+.. Training accuracy : 85.78
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 29 Era: 1
+.. Cost                : 0.488552844952
+. 
+
+.. Epoch: 30 Era: 1
+.. Cost                : 0.482747991888
+.. Validation accuracy : 87.47
+.. Training accuracy : 86.132
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 31 Era: 1
+.. Cost                : 0.477218360549
+. 
+
+.. Epoch: 32 Era: 1
+.. Cost                : 0.471955411459
+.. Validation accuracy : 87.8
+.. Training accuracy : 86.444
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 33 Era: 1
+.. Cost                : 0.466946436495
+. 
+
+.. Epoch: 34 Era: 1
+.. Cost                : 0.462177833516
+.. Validation accuracy : 87.94
+.. Training accuracy : 86.774
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 35 Era: 1
+.. Cost                : 0.45763505879
+. 
+
+.. Epoch: 36 Era: 1
+.. Cost                : 0.453305212732
+.. Validation accuracy : 88.14
+.. Training accuracy : 87.02
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 37 Era: 1
+.. Cost                : 0.449176918168
+. 
+
+.. Epoch: 38 Era: 1
+.. Cost                : 0.445238554808
+.. Validation accuracy : 88.35
+.. Training accuracy : 87.28
+.. Best training accuracy
+.. Best validation accuracy
+. 
+
+.. Epoch: 39 Era: 1
+.. Cost                : 0.44147750007
+.. Training complete.Took 0.832825633333 minutes
+.. Testing
+.. Testing accuracy : 87.79

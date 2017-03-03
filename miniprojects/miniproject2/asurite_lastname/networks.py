@@ -1,6 +1,8 @@
 #sample_submission.py
 import numpy as np
 
+
+
 class xor_net(object):
     """
     This is a sample class for miniproject 1.
@@ -13,11 +15,24 @@ class xor_net(object):
               ``y`` is a 1D ndarray it will be of the same length as axis 0 or x.   
                           
     """
+
+
+
     def __init__(self, data, labels):
         self.x = data
-        self.y = labels       
-        self.params = []  # [(w,b),(w,b)]         
-  
+        self.y = labels
+        self.w0 = np.random.rand(self.x.shape[1],100)
+        self.b0 = np.random.rand(1)
+        self.w1 = np.random.rand(100,1)
+        self.b1 = np.random.rand(1)
+        self.params = [self.w0,self.b0, self.w1, self.b1]  # [(w,b),(w,b)]
+        self.learning_rate = 0.01
+        self.epochs = 50
+        self.sum_error = 0
+
+    def threshold (self, value):
+        return np.asarray(value > self.b0, dtype ='int').T[0]
+
     def get_params (self):
         """ 
         Method that should return the model parameters.
@@ -31,6 +46,9 @@ class xor_net(object):
 
         """
         return self.params
+
+
+
 
     def get_predictions (self, x):
         """
@@ -46,14 +64,19 @@ class xor_net(object):
             Temporarily returns random numpy array for demonstration purposes.                            
         """        
         # Here is where you write a code to evaluate the data and produce predictions.
-        return np.random.randint(low =0, high = 2, size = x.shape[0])
+        #v_threshold = np.vectorize(threshold)
+        return self.threshold(np.dot((np.dot(x, self.w0)  + self.b0), self.w1) +self.b1)
 
 class mlnn(xor_net):
     """
     At the moment just inheriting the network above. 
     """
+
     def __init__ (self, data, labels):
         super(mlnn,self).__init__(data, labels)
+
+
+
 
 
 if __name__ == '__main__':

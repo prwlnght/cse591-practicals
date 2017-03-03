@@ -1,10 +1,10 @@
 # will ``sample_submission`` to your submission filename.
-
+#from asurite_lastname.networks_original import xor_net, mlnn
 from asurite_lastname.networks import xor_net, mlnn
 from dataset import xor, waldo
 import numpy as np
 
-def accuracy ( labels,  predictions ): 
+def accuracy (labels,  predictions ):
     """
     This function returns a count of the number of uneuqal elements in the two input arrays.
     
